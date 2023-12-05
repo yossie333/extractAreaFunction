@@ -1,7 +1,8 @@
 # extractAreaFunction
  Fortran program for extracting area function
+
  Copyright (c) 2023  Tsukasa Yoshinaga
- 
+  
  This program calculate the vocal tract area function from STL file.
  The method is partly based on Arnela et al., (2016) J.Acout.Soc.Am.
  First, the inital planes were extracted from the horizontal planes
