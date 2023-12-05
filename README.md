@@ -14,11 +14,14 @@
  Note that the vocal tract in the STL file should has a direction
  along the z-axis with glottis and the y-axis with the mouth opening.
 
- Input files: Parameter file (param.txt)
+ Input files: 
+
+              Parameter file (param.txt)
 
               Vocal Tract geometry (STL file) 
 
- Output files: initial planes for centerline (ring1.vtk)
+ Output files: 
+               initial planes for centerline (ring1.vtk)
 
                final planes for cross-sectional area (ring2,vtk)
 
