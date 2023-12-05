@@ -1,0 +1,23 @@
+# parameters for extractAreaFunction
+# number of initial planes for horizlntal, middle, and vertical
+20   20    20
+# begining and end coordinates for horizontal (z-axis in STL)
+-50.d0    2.d0 
+# begining and end coordinates for horizontal (y-axis in STL)
+72.d0   127.d0
+# coordinate at glottis xg,yg,zg
+0.d0  50.d0  -50.d0
+# Threshold for maximum radius to include in the plane
+45.d0
+# number of planes for output
+40
+# allocation for the grids on plane
+50000
+# directry name for input files
+input
+# directry name for output files
+output
+# filename for STL file
+geometry.stl
+
+
