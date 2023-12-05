@@ -14,6 +14,7 @@ subroutine readParam
 !       nummax: memory size for xc,yc,zc (original: 50000)
 !       idir,rdir: input and output directory name
 !       fstl: filename for STL file
+!       farea: filename for Area function
 !
 !*******************************************************************
         use variables
@@ -85,6 +86,11 @@ subroutine readParam
         write(*,'(A)')fstl
         fstl=trim(idir) // "/" // trim(adjustl(fstl))
         
+        read(iunit,'(A)')tmp
+        write(*,'(A)')tmp
+        read(iunit,*)farea
+        write(*,'(A)')farea
+        farea=trim(rdir) // "/" // trim(adjustl(farea))
 
         close(iunit)
 

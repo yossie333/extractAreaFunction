@@ -9,15 +9,13 @@ subroutine writeArea
         use variables
         implicit none
         integer i,j,iunit
-        character(80)filename
 
-        filename = "areafunc.txt"
-        filename = trim(rdir) // "/" //filename
+        !filename = "areafunc.txt"
         
-        write(*,*)"output: ",filename
+        write(*,*)"output: ",farea
 
         iunit=10
-        open(iunit,file=filename,status="replace")
+        open(iunit,file=farea,status="replace")
 
         write(iunit,*)"Areafunc for ",fstl
         write(iunit,*)" Distance,   Area"

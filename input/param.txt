@@ -19,5 +19,6 @@ input
 output
 # filename for STL file
 geometry.stl
-
+# filename for output areafunction file
+areafunc.txt
 

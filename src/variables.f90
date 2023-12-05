@@ -11,7 +11,7 @@ module variables
         integer ny,nyz,nz
         double precision pi,zstart,zend,ystart,yend
         double precision xg,yg,zg
-        character(80) idir,rdir,fstl
+        character(80) idir,rdir,fstl,farea
 
         !readSTL
         integer nov
