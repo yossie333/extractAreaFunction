@@ -20,7 +20,8 @@
 
               Vocal Tract geometry (STL file) 
 
- Output files: 
+ Output files:
+ 
                initial planes for centerline (ring1.vtk)
 
                final planes for cross-sectional area (ring2,vtk)
